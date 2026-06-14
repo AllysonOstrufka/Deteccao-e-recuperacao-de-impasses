@@ -1,1 +1,1 @@
-# Detec-o-e-recupera-o-de-impasses
+# Deteccao e recuperacao de impasses
