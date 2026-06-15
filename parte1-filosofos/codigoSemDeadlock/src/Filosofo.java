@@ -9,13 +9,11 @@ public class Filosofo implements Runnable {
 
     private void pensar() throws InterruptedException {
         System.out.println(Thread.currentThread().getName() + " está pensando...");
-        // Simula o tempo pensando (entre 0 e 100 milissegundos)
         Thread.sleep((long) (Math.random() * 100));
     }
 
     private void comer() throws InterruptedException {
         System.out.println(Thread.currentThread().getName() + " ESTÁ COMENDO!");
-        // Simula o tempo comendo (entre 0 e 100 milissegundos)
         Thread.sleep((long) (Math.random() * 100));
     }
 
