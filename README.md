@@ -216,6 +216,7 @@ Para cada thread t (Thread 1 e Thread 2):
 ```
 
 A imposição de uma ordem global de aquisição é o que rompe o ciclo: ao forçar que toda thread dispute `LOCK_A` primeiro, garante-se que nunca dois lados do ciclo segurem locks em ordens opostas, e o cruzamento fatal se torna estruturalmente impossível.
+
 Prints/Logs execução parte 1:
 Com deadlock, sem o Thread.Sleep(50). Ou seja, sem forçar que o deadlock aconteça na primeira interação:
 <img width="451" height="378" alt="image" src="https://github.com/user-attachments/assets/b883ba30-b212-44dc-b330-2bfb7619b1a4" />
