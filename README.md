@@ -217,5 +217,27 @@ Para cada thread t (Thread 1 e Thread 2):
 
 A imposição de uma ordem global de aquisição é o que rompe o ciclo: ao forçar que toda thread dispute `LOCK_A` primeiro, garante-se que nunca dois lados do ciclo segurem locks em ordens opostas, e o cruzamento fatal se torna estruturalmente impossível.
 Prints/Logs execução parte 1:
+Com deadlock, sem o Thread.Sleep(50). Ou seja, sem forçar que o deadlock aconteça na primeira interação:
+<img width="451" height="378" alt="image" src="https://github.com/user-attachments/assets/b883ba30-b212-44dc-b330-2bfb7619b1a4" />
+
+Com deadlock, com o Thread.Sleep(50) forçando o deadlock na primeira interação:
+<img width="451" height="378" alt="image" src="https://github.com/user-attachments/assets/d188a4ca-153e-4e0a-8ed2-3910c67f0076" />
+
+Sem deadlock (encerrado manualmente):
+<img width="718" height="442" alt="image" src="https://github.com/user-attachments/assets/134f76f7-7da1-4575-9e99-7029710f1d59" />
+
 Prints/Logs execução parte 2:
+Sem sincronização:
+<img width="308" height="113" alt="image" src="https://github.com/user-attachments/assets/1f10f6a8-0c66-41e9-ae68-b369fb71e911" />
+
+Com semáforo:
+<img width="200" height="91" alt="image" src="https://github.com/user-attachments/assets/68997e48-3054-422a-9787-1da14ff06fba" />
+
 Prints/Logs execução parte 3:
+Deadlock:
+<img width="168" height="73" alt="image" src="https://github.com/user-attachments/assets/da01fc9f-96b7-440f-a229-4020d75774d5" />
+
+SemDeadlock:
+<img width="268" height="125" alt="image" src="https://github.com/user-attachments/assets/65f22efe-70fd-49df-8081-e8f10c293524" />
+
+
