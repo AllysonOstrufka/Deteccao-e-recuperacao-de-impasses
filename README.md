@@ -5,7 +5,7 @@ Este repositório faz parte do trabalho desenvolvido por:
 - Gustavo Bolsoni;
 - Henrique de Souza Mello.
 
-LINK DO VÍDEO NO YOUTUBE: 
+LINK DO VÍDEO NO YOUTUBE: https://youtu.be/D7kOVw5Ky7Y
 
 Linguagem escolhida: Java
 Instruções de compilação/execução:
